@@ -1,0 +1,28 @@
+{
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+	"editor.codeActionsOnSave": {
+	  "source.fixAll.eslint": "always"
+	},
+	"eslint.validate": [
+	  "javascript",
+	  "typescript",
+	],
+	"[typescript]": {
+	  "editor.tabSize": 2,
+	  "editor.insertSpaces": true
+	},
+	"[javascript]": {
+	  "editor.tabSize": 2,
+	  "editor.insertSpaces": true
+	},
+	"[json]": {
+	  "editor.tabSize": 2,
+	  "editor.insertSpaces": true
+	},
+  "[markdown]": {
+    "editor.tabSize": 2,
+	  "editor.insertSpaces": true
+  }
+}
