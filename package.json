@@ -13,5 +13,13 @@
     "streaming"
   ],
   "author": "Daniel Ellis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielshawellis/stream-jsonl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielshawellis/stream-jsonl/issues"
+  },
+  "homepage": "https://github.com/danielshawellis/stream-jsonl#readme",
   "license": "MIT"
 }
