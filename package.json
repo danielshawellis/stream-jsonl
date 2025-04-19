@@ -1,0 +1,17 @@
+{
+  "name": "stream-jsonl",
+  "version": "1.0.0",
+  "description": "Lightweight TypeScript library for streaming large JSONL/NDJSON over HTTP (incl. gzip) with low memory footprint, robust retries, and HTTP Range resume to avoid costly re‑downloads.",
+  "main": "dist/index.cjs.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "jsonl",
+    "ndjson",
+    "stream",
+    "streaming"
+  ],
+  "author": "Daniel Ellis",
+  "license": "MIT"
+}
