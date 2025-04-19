@@ -1,10 +1,26 @@
 {
   "name": "stream-jsonl",
-  "version": "1.0.0",
-  "description": "Lightweight TypeScript library for streaming large JSONL/NDJSON over HTTP (incl. gzip) with low memory footprint, robust retries, and HTTP Range resume to avoid costly re‑downloads.",
+  "version": "0.1.0",
+  "type": "module",
   "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
   "scripts": {
-    "test": "test"
+    "build": "tsup",
+    "type-check": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "files": ["dist"],
+  "devDependencies": {
+    "tsup": "^6.0.0",
+    "typescript": "^5.1.0",
+    "vitest": "^0.32.0"
   },
   "keywords": [
     "jsonl",
