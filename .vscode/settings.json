@@ -11,11 +11,13 @@
 	],
 	"[typescript]": {
 	  "editor.tabSize": 2,
-	  "editor.insertSpaces": true
+	  "editor.insertSpaces": true,
+    "typescript.preferences.quoteStyle": "double"
 	},
 	"[javascript]": {
 	  "editor.tabSize": 2,
-	  "editor.insertSpaces": true
+	  "editor.insertSpaces": true,
+    "javascript.preferences.quoteStyle": "double"
 	},
 	"[json]": {
 	  "editor.tabSize": 2,
